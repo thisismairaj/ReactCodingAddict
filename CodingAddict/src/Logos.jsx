@@ -19,7 +19,7 @@ const Logos = () => {
       "a",
       { href: "https://vitejs.dev" },
       React.createElement("img", {
-        src: "assets/react.svg",
+        src: { reactLogo },
         target: "_blank",
         alt: "Vite Logo",
         className: "logo",
