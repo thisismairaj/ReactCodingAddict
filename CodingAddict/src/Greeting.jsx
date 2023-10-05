@@ -1,9 +1,15 @@
+import React from "react"
+
 const Greeting = () => {
-  return (
-    <header>
-      <h1>Softstribe Apps</h1>
-      <p className="tagline">Freeware software apps and android</p>
-    </header>
+  return React.createElement(
+    "header",
+    {},
+    React.createElement("h1", {}, "Softstribe Apps"),
+    React.createElement(
+      "p",
+      { className: "tagline" },
+      "Freeware software apps and android"
+    )
   )
 }
 
