@@ -9,7 +9,7 @@ const Book = (props) => {
       <img src={img} alt={title} />
       <h3>{title}</h3>
       <h4>{author.toUpperCase()}</h4>
-      <button onClick={getSingleBook}>Click</button>
+      <button onClick={() => getBook(id)}>Click</button>
     </article>
   )
 }
