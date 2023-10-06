@@ -22,6 +22,7 @@ const Booklist = () => {
   return (
     <section className="booklist">
       {books.map((book, index) => {
+        index += "12"
         const { title, author, img } = book
         return <Book key={index} title={title} author={author} img={img} />
       })}
